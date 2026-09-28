@@ -29,9 +29,9 @@ body {
 }
 
 .links .recipes {
-    font-size: larger;
+    font-size: x-large;
     color: #34483a;
-    padding-left: 20px;
+    text-align: center;
 }
 
 ul {
@@ -47,3 +47,21 @@ li {
 li:first-child {
     border-top: 2px solid #34483a;
 }
+
+.item {
+    padding: 40px 20px;
+}
+
+.recipe-description {
+    font-size: 16px;
+    color: #666;
+    margin: 8px 0;
+}
+
+.item a {
+    font-size: 16px;
+    color: #34483a;
+    text-decoration: none;
+    line-height: 2;
+}
+
